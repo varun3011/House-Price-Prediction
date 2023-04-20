@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <style>
+        #map {
+            height: 500px;
+            width: 120%;
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Dorang landing page.">
+    <meta name="author" content="Devcrud">
+    <title>House Price</title>
+    <!-- font icons -->
+
+    <!-- Bootstrap + Dorang main styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/dorang.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendors/themify-icons/css/themify-icons.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs/blog-1.jpg') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs/blog-2.jpg') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs/footer.jpg') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs/header.jpg') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs/header-light.jpg') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs/img-1.jpg') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='imgs/dorang.jpg') }}" />
+
+    <script src="{{url_for('static', filename = 'js/dorang.js') }}" ></script>
+    <script src="{{url_for('static', filename = 'vendors/jquery/jquery-3.4.1.js') }}" ></script>
+    <script src="{{url_for('static', filename = 'https://code.jquery.com/jquery-3.6.0.min.js') }}" ></script>
+    <script src="{{url_for('static', filename = 'vendors/bootstrap/bootstrap.affix.js') }}" ></script>
+    <script src="{{url_for('static', filename = 'vendors/bootstrap/bootstrap.bundle.js') }}" ></script>
+<style>
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+</style>
+<style type="text/css">
+    /*#hid_div{*/
+        /*visibility:hidden;*/
+    /*}*/
+</style>
+<style>
+
+body {
+
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+</style>
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home" class="dark-theme">
+    
+    <!-- page navbar -->
+    <nav class="page-navbar" data-spy="affix" data-offset-top="110">
+        <ul class="nav-navbar container">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#Explore_The_World" class="nav-link">Explore</a></li>
+            <li class="nav-item"><a href="#map_" class="nav-link"><img src="static/imgs/placeholder.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page"></a></li>
+            <li class="nav-item"><a href="#" class="nav-link" >About us</a></li>
+            <li class="nav-item"><a href="#contact_us" class="nav-link">Contact us</a></li>
+
+            <!-- <li class="nav-item search">
+                <a href="javascript:void(0)" class="nav-link search-toggle"><i class="ti-search"></i> Search</a>
+                <div class="search-wrapper">
+                    <form>
+                        <input type="search" class="form-control" name="" placeholder="hit enter to search">
+                    </form>
+                </div>
+            </li> -->
+        </ul>
+    </nav><!-- end of page navbar -->
+
+    
+
+    <!-- page header -->
+    <header class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <h1 class="header-title">FIND YOUR DREAM HOME</h1><br><br>
+            <!-- <p class="header-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt.</p> -->
+
+            <a href="/dashboard_" ><button class="btn btn-theme-color modal-toggle">Watch Visualization</button>
+            </a>
+
+        </div>
+    </header><!-- end of page header -->
+
+    <!-- modal -->
+    <div class="modalBox">
+        <div class="modalBox-body">
+            <iframe width="100%" height="450px" class="border-0" 
+            src="https://www.youtube.com/embed/tgbNyZ7vqY?controls=0">
+            </iframe>
+        </div>          
+    </div><!-- end of modal -->
+
+    <!-- page container -->
+    <div class="container page-container" id="Explore_The_World">
+        <div class="col-md-10 col-lg-8 m-auto">
+            <br><br>
+            <h6 class="title mb-4">Explore The Cities</h6>
+            <p class="mb-5"></p>
+        </div>  
+
+        
+        
+        <!-- row -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/ahmedabad-atal-bridge_.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Ahmedabad</h1>
+                        <p>Ahmedabad is a city located in the western state of Gujarat, India. It is known for its rich history, vibrant culture, and architectural heritage. The city is home to several notable landmarks, such as the Sabarmati Ashram, the Kankaria Lake, and the Sidi Saiyyed Mosque. It is also a hub of industry and commerce, with a thriving textile and handicrafts market.
+                        </p>
+                    </div>          
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/banglore-palace_.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Banglore</h1>
+                        <p>Bangalore, also known as Bengaluru, is a bustling city located in the southern state of Karnataka, India. It is known for its vibrant culture, pleasant climate, and beautiful parks and gardens. Bangalore is also a major hub of the Indian technology industry, with many large multinational companies headquartered in the city. It is a popular destination for tourists, offering a mix of traditional Indian culture and modern amenities.</p>
+                    </div>          
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/bhopal-rani-kamlapati-arch-bridge.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Bhopal</h1>
+                        <p>Bhopal is a city located in the central Indian state of Madhya Pradesh. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Taj-ul-Masjid mosque and the ancient rock shelters at Bhimbetka. The city is also a major industrial center, with a focus on manufacturing, chemicals, and textiles. Bhopal is surrounded by several beautiful lakes and is a popular destination for tourists seeking to explore India's rich history and natural beauty.</p>
+                    </div>          
+                </a>
+            </div>
+        </div><!-- end of row -->
+          <!-- <button class="btn btn-lg btn-dark text-white fs-5 px-3" id="show_more_cities">Show OR Hide More Cities</button>
+
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+            <script>
+            $(document).ready(function(){
+                $('#hid_div').hide();
+
+              $("#show_more_cities").click(function(){
+                $('#hid_div').toggle(2000);
+
+
+              });
+            });
+            </script> -->
+        <div class="row mb-4" id="hid_div">
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/chennai.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Chennai</h1>
+                        <p>Chennai, formerly known as Madras, is a bustling city located on the southeastern coast of India. It is known for its rich history and culture, with several important landmarks and monuments, including the Fort St. George and the Kapaleeswarar Temple. Chennai is a major center of the Indian automobile industry and is also home to several universities and research institutions. The city has a thriving arts and music scene and is a popular destination for tourists seeking to explore India's diverse cultural heritage.</p>
+                    </div>          
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/dehradun-Ram-Jhula-Rishikesh.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Dehradun</h1>
+                        <p>Dehradun is a city located in the northern Indian state of Uttarakhand. It is known for its natural beauty and scenic surroundings, with several important landmarks and tourist attractions, including the Robber's Cave and the Rajaji National Park. Dehradun is also a major center of education, with several prestigious schools and universities located in the city. It is a popular destination for tourists seeking to explore India's natural beauty and cultural heritage.</p>
+                    </div>          
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/delhi-india-gate.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Delhi</h1>
+                        <p>Delhi, the capital city of India, is a bustling metropolis located in the northern part of the country. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Red Fort and the India Gate. Delhi is a major center of commerce, industry, and politics, with a thriving arts and music scene. It is a popular destination for tourists seeking to explore India's rich history and culture.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/goa-st-cajetan.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Goa</h1>
+                        <p>Goa is a small state located on the western coast of India. It is known for its beautiful beaches, vibrant nightlife, and rich Portuguese heritage, with several important landmarks and monuments, including the Basilica of Bom Jesus and the Fort Aguada. Goa is a popular destination for tourists seeking to relax on the beach or explore India's colonial history. It is also famous for its seafood and traditional cuisine, making it a food lover's paradise.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/hyderabad-charminar.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Hyderabad</h1>
+                        <p>Hyderabad is a city located in the southern Indian state of Telangana. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Charminar and the Golconda Fort. Hyderabad is also a major center of the Indian technology industry, with several large multinational companies headquartered in the city. It is a popular destination for tourists seeking to explore India's diverse cultural heritage and modern amenities.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/indore.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Indore</h1>
+                        <p>Indore is a city located in the central Indian state of Madhya Pradesh. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Rajwada Palace and the Lal Bagh Palace. Indore is also a major center of commerce and industry, with a focus on textiles and manufacturing. The city is a popular destination for tourists seeking to explore India's rich history and cultural diversity.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/jaipur.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Jaipur</h1>
+                        <p>Jaipur is a city located in the northern Indian state of Rajasthan. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Hawa Mahal and the Amber Fort. Jaipur is also a major center of the Indian handicrafts industry, with a thriving market for textiles, jewelry, and pottery. It is a popular destination for tourists seeking to explore India's rich cultural heritage and natural beauty.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/kanpur-radha-krishna-madir.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">kanpur</h1>
+                        <p>Kanpur is a city located in the northern Indian state of Uttar Pradesh. It is known for its rich industrial history and manufacturing industry, particularly in the production of leather and textiles. Kanpur is also home to several important educational institutions, including the Indian Institute of Technology (IIT) and the Harcourt Butler Technical University. The city has a rich cultural heritage and is a popular destination for tourists seeking to explore India's diverse history and traditions.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/kolkata.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Kolkata</h1>
+                        <p>Kolkata, also known as Calcutta, is a vibrant city located in the eastern Indian state of West Bengal. It is known for its rich cultural heritage, with several important landmarks and monuments, including the Victoria Memorial and the Howrah Bridge. Kolkata is a major center of commerce and industry, with a focus on textiles, jute, and engineering. The city is also famous for its literature and art, making it a popular destination for tourists seeking to explore India's diverse cultural heritage.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/lucknow-pearl-of-awadh.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Lucknow</h1>
+                        <p>Lucknow is a city located in the northern Indian state of Uttar Pradesh. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Bara Imambara and the Chota Imambara. Lucknow is also famous for its cuisine, particularly its traditional Awadhi dishes. The city is a major center of education, with several prestigious schools and universities located in the area. It is a popular destination for tourists seeking to explore India's rich cultural heritage.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/madurai.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Madurai</h1>
+                        <p>Madurai is a city located in the southern Indian state of Tamil Nadu. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Meenakshi Amman Temple and the Thirumalai Nayak Palace. Madurai is also a major center of the Indian textile industry, with a thriving market for traditional textiles and handicrafts. The city is a popular destination for tourists seeking to explore India's rich cultural heritage and natural beauty.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/mumbai.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Mumbai</h1>
+                        <p>Mumbai, also known as Bombay, is a bustling metropolis located on the western coast of India. It is known for its vibrant culture, with a thriving Bollywood film industry and a rich culinary scene. Mumbai is also a major center of commerce and industry, with a focus on finance, entertainment, and technology. The city is a popular destination for tourists seeking to explore India's diverse cultural heritage and modern amenities.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/pune.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Pune</h1>
+                        <p>Pune is a city located in the western Indian state of Maharashtra. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Aga Khan Palace and the Shaniwar Wada. Pune is also a major center of education, with several prestigious universities and research institutes located in the area. The city is a popular destination for tourists seeking to explore India's rich cultural heritage and natural beauty.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/raipur.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Raipur</h1>
+                        <p>Raipur is a city located in the central Indian state of Chhattisgarh. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Mahant Ghasidas Memorial Museum and the Dudhadari Temple. Raipur is also a major center of commerce and industry, with a focus on agriculture, steel, and manufacturing. The city is a popular destination for tourists seeking to explore India's diverse cultural heritage and natural beauty.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/surat.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Surat</h1>
+                        <p>Surat is a city located in the western Indian state of Gujarat. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Surat Castle and the Dumas Beach. Surat is also a major center of the Indian diamond and textile industries, with a thriving market for traditional textiles and handicrafts. The city is a popular destination for tourists seeking to explore India's rich cultural heritage and modern amenities.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/vadodara-Lakshmi-Vilas_Palace.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Vadodara</h1>
+                        <p>Vadodara, also known as Baroda, is a city located in the western Indian state of Gujarat. It is known for its rich history and cultural heritage, with several important landmarks and monuments, including the Laxmi Vilas Palace and the Sayaji Baug Zoo. Vadodara is also a major center of commerce and industry, with a focus on manufacturing, chemicals, and pharmaceuticals.</p>
+                    </div>          
+                </a>
+            </div>          
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="overlay-img">
+                    <img src="static/imgs/visakhapatnam.jpg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">  
+                    <div class="overlay"></div> 
+                    <div class="des">
+                        <h1 class="title">Visakhapatnam</h1>
+                        <p>Visakhapatnam, also known as Vizag, is a city located in the southern Indian state of Andhra Pradesh. It is known for its natural beauty, with several important landmarks and monuments, including the Kailasagiri Hill and the Borra Caves. Visakhapatnam is also a major center of commerce and industry, with a focus on shipping, fishing, and tourism. The city is a popular destination for tourists seeking to explore India's natural beauty and cultural heritage.</p>
+                    </div>          
+                </a>
+            </div>
+                </div>
+
+                <div><button class="btn btn-lg btn-dark text-white fs-5 px-3" id="hide_more_cities">Show OR Hide More Cities</button></div>
+
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+            <script>
+                $(document).ready(function(){
+                $('#hid_div').hide();
+                    $("#hide_more_cities").click(function(){
+                    $('#hid_div').toggle(2000);
+
+
+              });
+                });
+            </script>
+
+
+            <div class="container-fluid font-1" id="map_">
+      <div class="row vh-100">
+        <div
+          class="col-sm-12 col-md-6 col-lg-6 p-5 h-100  text-white"
+          id="LeftBanner"
+        >
+          <form method="POST" class="container-fluid form mb-5">
+            {{ form.hidden_tag() }}
+            <div class="row">
+                <br><br>
+              <h3 class="">Find Your House Price</h3>
+              <h6 class="fw-normal">Enter required details to estimate your house price.</h6>
+            </div>
+            <div class="row my-5">
+              <div class="my-4">
+                <label for="" class="form-label">Area (Sq Ft.)</label>
+                {{ form.total_sqft(class="form-control form-control-lg floatLabel" , placeholder="1000") }} 
+              </div>
+              <div class="my-4">
+                <label for="" class="form-label">Locations</label>
+                {{ form.location( class="form-control form-control-lg floatLabel") }}
+              </div>
+                {% for radio in form.Type %}
+                      <div class="form-check form-check-inline">
+                        {{ radio(class_="form-check-input", id="radio-"+radio.id) }}
+                        <label class="form-check-label" for="radio-{{ radio.id }}">{{ radio.label }}</label>
+                      </div>
+                {% endfor %}
+
+            <br>
+            <br>
+              <div class="my-4 d-flex justify-content-start">
+                {{ form.submit(class="btn btn-lg btn-dark text-white fs-5 px-3", value="Estimate") }}
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          class="col-sm-12 col-md-6 col-lg-6 p-5 h-100 bg-black"
+          id="RightBanner"
+        >
+          <div class="container h-100">
+
+            
+            {% if predicted_price != None or category != None %}
+                  <div class="row mt-1">
+<!--                     <h6 class="text-center">House will be cost you around</h6>
+ -->                  </div>
+                  <div class="row d-flex justify-content-center align-items-center">
+                      <h1 class="fs-1 result fw-bold text-center">₹ <span class="result" id="uiEstimatedPrice">
+                      {% if predicted_price != None %}
+                        {{ predicted_price }}
+            {{ location_selected }}
+                      {% endif %}</span> {% if category != None %}
+                        {{ category }}
+                      {% endif %}</h1>
+                  </div>
+            {% endif %}
+
+
+
+
+
+
+
+
+    <div id="map"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key="></script>
+    <script>
+      function initMap() {
+        var location = {lat: {{ lat }}, lng: {{ lng }}};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 12,
+            center: location,
+            // mapTypeId: 'satellite'
+
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map,
+          title: '{{ location_name }}'
+        });
+      }
+    </script>
+  </head>
+  <body onload="initMap()">
+
+    {% if location_name %}
+    <div id="map"></div>
+    {% endif %}
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-10 col-lg-8 m-auto">
+            <h6 class="title mb-4 mt-5 pt-5">The Journal</h6>
+            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim.</p>
+        </div>
+
+        <!-- row -->
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <a href="javascript:void(0)" class="card">
+                    <img src="static/imgs/blog-1.jpg" class="card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">
+                    <div class="card-body">
+                        <h6 class="card-subtitle">30 June, 2018</h6>
+                        <h3 class="card-title">Eiusmod
+                        tempor</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>                  
+                </a>
+            </div>  
+            <div class="col-md-6">
+                <a href="javascript:void(0)" class="card">
+                    <img src="static/imgs/blog-2.jpg" class="card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, weber Landing page">
+                    <div class="card-body">
+                        <h6 class="card-subtitle">29 June, 2018</h6>
+                        <h3 class="card-title">Ut minim veniam</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>                  
+                </a>
+            </div>
+        </div><!-- end of row -->
+
+
+    </div> <!-- end of page container -->
+
+    <!--footer & pre footer -->
+    <div class="contact-section">
+        <div class="overlay"></div>
+        <!-- container -->
+        <div class="container" id="contact_us">
+            <div class="col-md-10 col-lg-8 m-auto">
+                <h6 class="title mb-2">Contact Us</h6>
+                <p class="mb-5">Feel Free To Drop Us A Line.</p>
+                <form action="/submit-comment" class="form-group" method="POST">
+                    <!-- <label for="name">Name:</label> -->
+                    <input type="text" size="50" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                    <!-- <label for="email">Email:</label> -->
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter Email"requried>
+                    <!-- <label for="comment">Comment:</label> -->
+                    <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Insert Comments here"></textarea>
+                    <input type="submit" class="form-control">
+                </form>
+            </div>
+
+            <!-- footer -->
+            <footer class="footer">
+
+            </footer><!-- end of footer -->
+
+        </div><!-- end of container -->
+    </div><!-- end of pre footer -->
+
+    <!-- core  -->
+
+<!-- <div class='tableauPlaceholder' id='viz1680770551528' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bi&#47;Bisag&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Bisag&#47;Dashboard2' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bi&#47;Bisag&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1680770551528');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='1366px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='818px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='1366px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='818px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.minHeight='1200px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+</body>
+</html>
