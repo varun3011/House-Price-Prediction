@@ -59,19 +59,9 @@ Developer notes & gotchas
 - `server.py` uses a hard-coded `SECRET_KEY` and connects to MongoDB at `mongodb://localhost:27017/`. For production, move these to environment variables.
 - Google Maps API key in `templates/index1.html` is blank — add your key to enable map rendering.
 
-Edge cases to watch
-- Missing artifact files -> startup failure when `util.load_saved_artifacts()` is called.
-- Locations not found in `data_columns` -> `get_estimated_price` treats them as unknown (model input will have no one-hot feature for that location).
-- Very small or invalid `total_sqft` values -> client-side validators require a minimum (see `form.py`), but server code casts to int directly; unexpected values can cause exceptions.
 
-Quick improvements I can implement next (pick one)
-1. Cleanup `util.type_price` (remove obfuscation + clearer logic). Small, low risk.
-2. Add a Dockerfile + docker-compose with a MongoDB service for one-command local runs.
-3. Add a minimal pytest unit test around `util.load_saved_artifacts()` using temporary files / mocks.
 
-If you want a creative touch: I can add a small CSS animation to the estimated price or a playful emoji-based output depending on price range.
 
-License
-- No license file is included. Add one if you plan to open-source.
 
-Thanks — tell me which of the quick improvements you'd like and I'll make it happen! 🎯
+
+
